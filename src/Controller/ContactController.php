@@ -24,7 +24,7 @@ class ContactController extends AbstractController
 
 
     /**
-     * @Route("/contact", name="contact")
+     * @Route("{_locale}/contact", name="contact")
      * @param Request $request
      * @return Response
      */

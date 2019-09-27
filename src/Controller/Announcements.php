@@ -13,7 +13,7 @@ class Announcements extends AbstractController
 {
 
     /**
-     * @Route("/annoncements/{page}/detail",
+     * @Route("{_locale}/annoncements/{page}/detail",
      *     name="page",
      *     defaults={"page"=1}
      *     )

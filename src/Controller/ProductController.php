@@ -30,7 +30,7 @@ class ProductController extends AbstractController
 
 
     /**
-     * @Route("/product", name="product")
+     * @Route("{_locale}/product", name="product")
      * @param Request $request
      * @return Response
      */

@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class AddController extends AbstractController
 {
     /**
-     * @Route("/add",
+     * @Route("{_locale}/add",
      *     name="add",
      *     methods={"GET", "POST"}
      *     )

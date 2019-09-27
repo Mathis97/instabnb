@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class AnnonceController extends AbstractController
 {
     /**
-     * @Route("/tableau", name="tableau")
+     * @Route("{_locale}/tableau", name="tableau")
      */
     public function index()
     {

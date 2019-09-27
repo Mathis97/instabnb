@@ -24,7 +24,7 @@ class RegistrationController extends AbstractController
     }
 
     /**
-     * @Route("/registration", name="registration")
+     * @Route("{_locale}/registration", name="registration")
      */
     public function index(Request $request) : Response
     {
